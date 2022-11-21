@@ -1,0 +1,83 @@
+.tablink {
+    background-color: #141313;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 22px;
+    width: 18%;
+}
+  
+.tablink:hover {
+    background-color: #141313;
+}
+
+.tabcontent {
+    height: 210px;
+    color: white;
+    display: none;
+    padding: 50px;
+    text-align: center;
+}
+
+table.table-links {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #7BB8F5;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+table.table-links td, table.table-links th {
+    padding: 4px 4px;
+}
+
+table.table-links tbody td {
+    color: #141313;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 1.1em;
+}
+
+table.table-links tr:nth-child(even) {
+    background: #D8EDFF;
+}
+
+table.table-links thead {
+    background: #2257A5;
+}
+
+table.table-links thead th {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+table.table-links thead th:first-child {
+    border-left: none;
+}
+
+table.table-links tfoot {
+    font-size: 19px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background: #2257A5;
+    border-top: 0px solid #141313;
+}
+
+table.table-links tfoot td {
+    font-size: 19px;
+}
+
+table.table-links tfoot .links {
+    text-align: left;
+}
+
+table.table-links tfoot .links a {
+    display: inline-block;
+    background: #2257A5;
+    color: #FFFFFF;
+    padding: 2px 8px;
+}
